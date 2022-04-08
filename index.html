@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Animated Template</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tailwind Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-800 antialiased" id='background'>
+
+  <main id='signed-out' hidden=false>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+      <!-- Filler Image -->
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+        style="background: url(https://images.unsplash.com/photo-1524397057410-1e775ed476f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80)">
+        <span id="Overlay" class="w-full h-full absolute opacity-75 aquamarine"></span>
+      </div>
+      <!-- Text Over Main Background -->
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-gray-800 font-semibold text-5xl">
+                The Frugal Bank
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0);">
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="pb-20 relative block bg-gray-900">
+      <!-- Making Polygon Shape in Background -->
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-900 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <!-- Section Container -->
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <!-- Text Box -->
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">Invest Today</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                (this bank website will allow you to create a new account, sign in to your account, store your data in local storage.
+                It will also allow you to invest and withdraw from your account.)
+            </p>
+          </div>
+        </div>
+
+    <!-- Contact Form -->
+    <section class="relative block py-24 lg:pt-0 bg-gray-900" >
+      <!-- Container -->
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold" id="msgbox">Access your account</h4>
+                <!-- Name -->
+                <div class="relative w-full mb-3 mt-8">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">
+                    username
+                  </label
+                  ><input
+                    id='username';
+                    type='text';
+                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    placeholder="username"
+                    style="transition: all 0.15s ease 0s;"
+                  />
+                </div>
+                <!-- Email -->
+              <form id='form'>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">
+                    password
+                  </label
+                  ><input
+                    id='password'
+                    type='password';
+                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    placeholder="password"
+                    style="transition: all 0.15s ease 0s;"
+                  />
+                </div>
+                <div class="text-center mt-6">
+                  <div
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    style="transition: all 0.15s ease 0s; cursor: pointer;"
+                    id='sign-in'>
+                  <!-- signIn() -->
+                    <!-- Sign in! --> 
+                    sign in.
+                </div>
+                  <div
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1s"
+                    style="transition: all 0.15s ease 0s; cursor: pointer"
+                    id='sign-up'
+                  >
+                    Sign up.
+              </div>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!--view Signed In -->
+    <div class="signed-in" id='signed-in' hidden=true>
+        <h1 class='info' id="info">(-)to withdraw, (+)to invest</h1>
+        <!-- Form -->
+        <form id="form" novalidate>
+            <!-- Phone Number -->
+            <div class="invest">
+                <label class='info'>Invest / Withdraw</label>
+                <input type="text" id="invest/withdraw" class="form" placeholder="$">
+                <input type="text" id="typeOfCurrency" class="currencyType" placeholder="type of currency">
+            </div>
+            <div id='makeChanges' class='editAccount'>make changes</div>
+        </form>
+    </div>
+</body>
+<script src="bank.js"></script>
+</html>

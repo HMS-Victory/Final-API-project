@@ -1,0 +1,57 @@
+
+.signed-in{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  height: 20%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  background-color: rgb(160, 160, 160);
+  border-radius: 10px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form{
+  margin-left: 10px;
+  margin-right: -130px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.currencyType{
+  margin-left: 144px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.msgbox {
+  color: red;
+  font-size: 15;
+}
+
+.signed-in-main-background{
+  background-color: rgb(231, 205, 170);
+}
+
+.editAccount{
+  background-color: rgb(126, 126, 126);
+  border: black;
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.editAccount:hover{
+  filter: brightness(90%)
+}
+
+.info{
+  margin-left: 5px;
+}
+
+.info2{
+  margin-left: 30px;
+}
